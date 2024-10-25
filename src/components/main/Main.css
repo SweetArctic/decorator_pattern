@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #fdf1f8 50%, #e3f2fd 50%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-top: 30px;
+  }
+  
+  .main-container {
+    text-align: center;
+    padding: 40px;
+    border-radius: 20px;
+    /* backdrop-filter: blur(10px); */
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .animation-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    border-radius: 15px;
+    /* backdrop-filter: blur(15px); */
+    background-color: rgba(227, 242, 253, 0.5);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .animated-box {
+    width: 120px;
+    height: 120px;
+    background-color: #b3e5fc;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  
+  .animated-box:hover {
+    transform: scale(1.1);
+  }
+  
+  .box-label {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 12px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background-color: #ffccbc;
+    color: #5d4037;
+    font-size: 14px;
+    font-weight: 600;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  button:hover {
+    background-color: #ffab91;
+  }
+  
+  .back-button {
+    background-color: #b2dfdb;
+    color: #004d40;
+  }
+  
+  .back-button:hover {
+    background-color: #80cbc4;
+  }
+  
+  .details-button {
+    background-color: #90caf9;
+    color: #0d47a1;
+  }
+  
+  .details-button:hover {
+    background-color: #64b5f6;
+  }
+  
+  h2 {
+    font-size: 22px;
+    color: #3e2723;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #5d4037;
+    line-height: 1.6;
+    margin: 0 0 10px 0;
+  }
+  
